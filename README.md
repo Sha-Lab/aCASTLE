@@ -36,4 +36,3 @@ We thank following repos providing helpful components/functions in our work.
 - [ProtoNet](https://github.com/cyvius96/prototypical-network-pytorch)
 - [MatchingNet](https://github.com/gitabcworld/MatchingNetworks)
 - [PFA](https://github.com/joe-siyuan-qiao/FewShot-CVPR/)
-- [Transformer](https://github.com/jadore801120/attention-is-all-you-need-pytorch)
