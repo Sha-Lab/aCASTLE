@@ -15,10 +15,12 @@ The code repository for ["Learning Adaptive Classifiers Synthesis for Generalize
 ## Generalized Few-Shot Learning
 Object recognition in the real-world requires handling long-tailed or even open-ended data. An ideal visual system needs to recognize the populated head visual concepts reliably and meanwhile efficiently learn about emerging new tail categories with a few training instances. Class-balanced many-shot learning and few-shot learning tackle one side of this problem, by either learning strong classifiers for head or learning to learn few-shot classifiers for the tail. We investigate the problem of generalized few-shot learning (GFSL) --- a model during the deployment is required to learn about tail categories with few shots and simultaneously classify the head classes.
 
-<img src='imgs/architecture.png' width='640' height='280'>
+<img src='imgs/gfsl.png' width='640' height='280'>
 
 ## Adaptive Classifiers Synthesis
 We propose the ClAssifier SynThesis LEarning (Castle), a learning framework that learns how to synthesize calibrated few-shot classifiers in addition to the multi-class classifiers of head classes with a shared neural dictionary, shedding light upon the inductive GFSL. Furthermore, we propose an adaptive version of Castle (ACastle) that adapts the head classifiers conditioned on the incoming tail training examples, yielding a framework that allows effective backward knowledge transfer. As a consequence, ACastle can handle GFSL with classes from heterogeneous domains.
+
+<img src='imgs/architecture.png' width='640' height='280'>
 
 ## Prerequisites
 
