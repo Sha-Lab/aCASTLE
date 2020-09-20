@@ -1,16 +1,17 @@
 # Learning Adaptive Classifiers Synthesis for Generalized Few-Shot Learning
 The code repository for ["Learning Adaptive Classifiers Synthesis for Generalized Few-Shot Learning"](https://arxiv.org/abs/1906.02944)
 
+```
 @article{DBLP:YeHZS2019Learning,
       author    = {Han-Jia Ye and
                    Hexiang Hu and
-                   De-Chuan Zhan and
-                   Fei Sha},
+                   De-Chuan Zhan},
       title     = {Learning Adaptive Classifiers Synthesis for Generalized Few-Shot Learning},
       journal   = {CoRR},
       volume    = {abs/1906.02944},
       year      = {2019}
     }
+```
 
 ## Generalized Few-Shot Learning
 Object recognition in the real-world requires handling long-tailed or even open-ended data. An ideal visual system needs to recognize the populated head visual concepts reliably and meanwhile efficiently learn about emerging new tail categories with a few training instances. Class-balanced many-shot learning and few-shot learning tackle one side of this problem, by either learning strong classifiers for head or learning to learn few-shot classifiers for the tail. We investigate the problem of generalized few-shot learning (GFSL) --- a model during the deployment is required to learn about tail categories with few shots and simultaneously classify the head classes.
