@@ -39,11 +39,11 @@ The following packages are required to run the scripts:
 
 ### MiniImageNet Dataset
 
-The MiniImageNet dataset is a subset of the ImageNet that includes a total number of 100 classes and 600 examples per class. We follow the [previous setup](https://github.com/twitter/meta-learning-lstm), and use 64 classes as SEEN categories, 16 and 20 as two sets of UNSEEN categories for model validation and evaluation, respectively. The auxiliary images for evaluating SEEN categories could be downloaded from [here](). 
+The MiniImageNet dataset is a subset of the ImageNet that includes a total number of 100 classes and 600 examples per class. We follow the [previous setup](https://github.com/twitter/meta-learning-lstm), and use 64 classes as SEEN categories, 16 and 20 as two sets of UNSEEN categories for model validation and evaluation, respectively. The auxiliary images for evaluating SEEN categories could be downloaded from [here](https://drive.google.com/drive/folders/1gk0AsYUrN9NtLIDE9AKaZeVYzftpo6Ol?usp=sharing). 
 
 ### TieredImageNet Dataset
 [TieredImageNet](https://github.com/renmengye/few-shot-ssl-public) is a large-scale dataset  with more categories, which contains 351, 97, and 160 categoriesfor model training, validation, and evaluation, respectively. The dataset can also be download from [here](https://github.com/kjunelee/MetaOptNet).
-We only test TieredImageNet with ResNet backbone in our work. The auxiliary images for evaluating SEEN categories could be downloaded from [here]().
+We only test TieredImageNet with ResNet backbone in our work. The auxiliary images for evaluating SEEN categories could be downloaded from [here](https://drive.google.com/drive/folders/19SGTIAnTmVohdSNN6Q9G5Qn3bVChOIMr?usp=sharing).
 
 ## Acknowledgment
 We thank following repos providing helpful components/functions in our work.
