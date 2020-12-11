@@ -4,7 +4,6 @@ import numpy as np
 import torch.optim as optim
 from torch.utils.data import DataLoader
 from model.dataloader.samplers import CategoriesSampler, RandomSampler
-from model.models.castlem import CastleM
 from model.models.castle import Castle
 from model.models.acastle import ACastle
 
