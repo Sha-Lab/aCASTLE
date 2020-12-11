@@ -376,7 +376,7 @@ def get_command_line_parser():
     parser.add_argument('--log_interval', type=int, default=100)
     parser.add_argument('--eval_interval', type=int, default=200)
     parser.add_argument('--save_dir', type=str, default='./checkpoints')
-    parser.add_argument('--num_eval_episodes', type=int, default=10000)
+    parser.add_argument('--num_eval_episodes', type=int, default=500)
     
     return parser
 
