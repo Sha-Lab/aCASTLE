@@ -29,7 +29,7 @@ We propose the ClAssifier SynThesis LEarning (Castle), a learning framework that
 
 Experimental results on MiniImageNet with ResNet-12 backbone (Same as [this repo](https://github.com/kjunelee/MetaOptNet)). We report average results with 10,000 randomly sampled few-shot learning episodes for stablized evaluation. Different from the standard few-shot learning, the model is required to discern over the novel classes and all SEEN classes.
 
-**5-Way Harmonic Mean (Classification over 64 head and 5 tail categories)**
+**5-Way Harmonic Mean Accuracy (Classification over 64 head and 5 tail categories)**
 |  Setups  | 1-Shot 5-Way | 5-Shot 5-Way |   [Link to Weights](https://drive.google.com/drive/folders/1nJvL93R1SJT-GerO0NgGS8dIjgu-t-EE?usp=sharing) |
 |:--------:|:------------:|:------------:|:-----------------:|
 |     MC   |     0.00    |     0.00    | [1-Shot](https://drive.google.com/file/d/15wBGncIWYIrcw3UrPkw7m3FGqazFbeAW/view?usp=sharing),   [5-Shot](https://drive.google.com/file/d/15wBGncIWYIrcw3UrPkw7m3FGqazFbeAW/view?usp=sharing) |
@@ -38,7 +38,7 @@ Experimental results on MiniImageNet with ResNet-12 backbone (Same as [this repo
 |   ACastle |   **66.24**  |   **78.33**  | [1-Shot](https://drive.google.com/file/d/1I1zri-DeVlHTzbSIQ63r1rYmLg_ssc--/view?usp=sharing),   [5-Shot](https://drive.google.com/file/d/122gyDQ1SceyBgbDeHiCAENGL4_rb0B5R/view?usp=sharing)|
 
 
-**20-Way Harmonic Mean (Classification over 64 head and 20 tail categories)**
+**20-Way Harmonic Mean Accuracy (Classification over 64 head and 20 tail categories)**
 |  Setups  | 1-Shot 20-Way | 5-Shot 20-Way |   [Link to Weights](https://drive.google.com/drive/folders/1nJvL93R1SJT-GerO0NgGS8dIjgu-t-EE?usp=sharing) |
 |:--------:|:------------:|:------------:|:-----------------:|
 |     MC   |     0.00    |     0.00    | [1-Shot](https://drive.google.com/file/d/15wBGncIWYIrcw3UrPkw7m3FGqazFbeAW/view?usp=sharing),   [5-Shot](https://drive.google.com/file/d/15wBGncIWYIrcw3UrPkw7m3FGqazFbeAW/view?usp=sharing) |
@@ -50,7 +50,7 @@ Experimental results on MiniImageNet with ResNet-12 backbone (Same as [this repo
 
 Experimental results on MiniImageNet with ResNet-12 backbone (Same as [this repo](https://github.com/kjunelee/MetaOptNet)). We report average results with 10,000 randomly sampled few-shot learning episodes for stablized evaluation.
 
-**MiniImageNet Dataset**
+**Accuracy on MiniImageNet Dataset**
 |  Setups  | 1-Shot 5-Way | 5-Shot 5-Way |  [Link to Weights](https://drive.google.com/drive/folders/1nJvL93R1SJT-GerO0NgGS8dIjgu-t-EE?usp=sharing) |
 |:--------:|:------------:|:------------:|:-----------------:|
 | ProtoNet |     62.39    |     80.53    | [1-Shot](https://drive.google.com/file/d/1rZEgEAutv-53AVYmCTVuGjZeB_eKpe5I/view?usp=sharing),   [5-Shot](https://drive.google.com/file/d/1kfxt5Tk5epMoqAFGk9SGFgFUWk5OQQ98/view?usp=sharing) |
