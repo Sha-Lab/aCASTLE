@@ -43,7 +43,7 @@ Experimental results on MiniImageNet with ResNet-12 backbone (Same as [this repo
 |:--------:|:------------:|:------------:|:-----------------:|
 |     MC   |     0.00    |     0.00    | [1-Shot](https://drive.google.com/file/d/15wBGncIWYIrcw3UrPkw7m3FGqazFbeAW/view?usp=sharing),   [5-Shot](https://drive.google.com/file/d/15wBGncIWYIrcw3UrPkw7m3FGqazFbeAW/view?usp=sharing) |
 | ProtoNet |     17.71    |     55.51    | [1-Shot](https://drive.google.com/file/d/1rZEgEAutv-53AVYmCTVuGjZeB_eKpe5I/view?usp=sharing),   [5-Shot](https://drive.google.com/file/d/1kfxt5Tk5epMoqAFGk9SGFgFUWk5OQQ98/view?usp=sharing) |
-|   Castle |     43.06    |     44.65    | [1-Shot](https://drive.google.com/file/d/1DhBL6YwNJSAz5thpeBvdejAt2DjIYtms/view?usp=sharing),   [5-Shot](https://drive.google.com/file/d/1FCxVcoxhkpKwb5sQfmzsyacQ_f5a0U_o/view?usp=sharing)|
+|   Castle |     43.06    |     55.65    | [1-Shot](https://drive.google.com/file/d/1DhBL6YwNJSAz5thpeBvdejAt2DjIYtms/view?usp=sharing),   [5-Shot](https://drive.google.com/file/d/1FCxVcoxhkpKwb5sQfmzsyacQ_f5a0U_o/view?usp=sharing)|
 |   ACastle |   **43.63**  |   **56.33**  | [1-Shot](https://drive.google.com/file/d/1I1zri-DeVlHTzbSIQ63r1rYmLg_ssc--/view?usp=sharing),   [5-Shot](https://drive.google.com/file/d/122gyDQ1SceyBgbDeHiCAENGL4_rb0B5R/view?usp=sharing)|
 
 ## Standard Few-shot Learning Results
