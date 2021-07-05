@@ -336,19 +336,19 @@ def postprocess_args(args):
 def get_command_line_parser():
     parser = argparse.ArgumentParser()
     # task configurations
-    parser.add_argument('--sample_class', type=int, default=8)       
+    parser.add_argument('--sample_class', type=int, default=16)       
     parser.add_argument('--way', type=int, default=5)
     parser.add_argument('--eval_way', type=int, default=5)
     parser.add_argument('--shot', type=int, default=1)
     parser.add_argument('--eval_shot', type=int, default=1)
     parser.add_argument('--query', type=int, default=15)
     parser.add_argument('--eval_query', type=int, default=15)
-    parser.add_argument('--num_tasks',   type=int, default=3)
-    parser.add_argument('--test_mode', type=str, default='FSL', choices=['FSL', 'GFSL'])   # important
+    parser.add_argument('--num_tasks',   type=int, default=267)
+    parser.add_argument('--test_mode', type=str, default='GFSL', choices=['FSL', 'GFSL'])   # important
     
     # optimization parameters
-    parser.add_argument('--max_epoch', type=int, default=200)    
-    parser.add_argument('--batch_size', type=int, default=32)    
+    parser.add_argument('--max_epoch', type=int, default=50)    
+    parser.add_argument('--batch_size', type=int, default=128)    
     parser.add_argument('--lr', type=float, default=0.1)
     parser.add_argument('--lr_mul', type=float, default=1)    
     parser.add_argument('--lr_scheduler', type=str, default='cosine', choices=['multistep', 'step', 'cosine'])
