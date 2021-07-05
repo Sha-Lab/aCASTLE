@@ -146,6 +146,9 @@ The train_gfsl.py and eval_gfsl.py take similar command line options (details ar
 
 - `temperature`: Temperature over the logits, we #divide# logits with this value. It is useful when meta-learning with pre-trained weights. Default to `1`
 
+**Model Evaluation Criteria**
+- `criteria`: We implement **various criteria to evaluate GFSL** performance during model evaluation, i.e., mean accuracy (`Acc`), harmonic mean accuracy (`HMeanAcc`), harmonic mean MAP (`HMeanMAP`), Delta Value (`Delta`), and Area Under the Seen-Unseen Curve (`AUSUC`). Please provide a list of criteria to measure during the evaluation. Default to `Acc, HMeanAcc, HMeanMAP, Delta, AUSUC`. Note that there may exist warnings when evaluate HMeanMAP, please change `recall = tps / tps[-1]` in sklearn/metrics/ranking.py to `recall = np.ones(tps.size) if tps[-1] == 0 else tps / tps[-1]` in that case
+
 **Other Arguments** 
 - `orig_imsize`: Whether to resize the images before loading the data into the memory. `-1` means we do not resize the images and do not read all images into the memory. Default to `-1`
 
